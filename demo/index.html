@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>docsify-dark-mode-toggle — demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Live demo of docsify-dark-mode-toggle." />
+    <link rel="stylesheet" href="https://unpkg.com/docsify/lib/themes/vue.css" />
+    <link rel="stylesheet" href="../index.css" />
+  </head>
+  <body>
+    <div id="app">Loading…</div>
+    <script>
+      window.$docsify = {
+        name: "docsify-dark-mode-toggle",
+        repo: "piecioshka/docsify-dark-mode-toggle",
+        loadSidebar: false,
+        homepage: "README.md",
+        basePath: "../",
+        darkMode: {
+          messages: {
+            de: { enable: "Dunkles Design aktivieren", disable: "Dunkles Design deaktivieren" },
+          },
+        },
+      };
+    </script>
+    <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
+    <script src="../index.js"></script>
+  </body>
+</html>
