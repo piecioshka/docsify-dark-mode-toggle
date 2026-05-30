@@ -1,7 +1,7 @@
 {
   "name": "docsify-dark-mode-toggle",
   "description": "🔨 Dark mode toggle button for Docsify — vanilla JS, no dependencies, configurable storage key, i18n, custom SVG icons.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
     "name": "Piotr Kowalski",
