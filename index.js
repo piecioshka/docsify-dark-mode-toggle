@@ -105,7 +105,7 @@
   }
 
   const defaultSunIcon = buildIcon([
-    svgEl("circle", { cx: "12", cy: "12", r: "4", fill: "currentColor" }),
+    svgEl("circle", { cx: "12", cy: "12", r: "4" }),
     svgEl("line", { x1: "12", y1: "2", x2: "12", y2: "4" }),
     svgEl("line", { x1: "12", y1: "20", x2: "12", y2: "22" }),
     svgEl("line", { x1: "2", y1: "12", x2: "4", y2: "12" }),
