@@ -27,7 +27,8 @@
   "files": [
     "index.js",
     "index.css",
-    "CHANGELOG.md"
+    "CHANGELOG.md",
+    "LICENSE"
   ],
   "keywords": [
     "docsify",

@@ -120,4 +120,4 @@ You can also place your own `<button class="dark-mode-toggle">` in the markup
 
 ## License
 
-[The MIT License](https://piecioshka.mit-license.org) @ 2026
+[The MIT License](http://piecioshka.mit-license.org) @ 2026
