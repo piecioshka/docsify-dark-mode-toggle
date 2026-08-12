@@ -12,6 +12,16 @@ respects `prefers-color-scheme`, and persists the user's choice in `localStorage
 
 Works just as well in any plain HTML page — Docsify is not required.
 
+## Features ✨
+
+- 🌓 One-click toggle between light and dark palettes
+- 🪶 Zero dependencies - plain vanilla JS and CSS
+- 🖥️ Respects the system `prefers-color-scheme` preference out of the box
+- 💾 Persists the user's choice in `localStorage` (configurable storage key)
+- 🌍 i18n button labels - built-in English and Polish, easy to extend
+- 🎨 Custom sun/moon SVG icons and themeable CSS custom properties
+- 📄 Works in any plain HTML page - Docsify is not required
+
 ## Installation
 
 ### Via CDN (recommended for Docsify sites)
