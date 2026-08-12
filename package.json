@@ -17,6 +17,9 @@
   "devDependencies": {
     "commit-and-tag-version": "^12.7.3"
   },
+  "engines": {
+    "node": ">=20"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/piecioshka/docsify-dark-mode-toggle.git"
@@ -27,7 +30,8 @@
   "files": [
     "index.js",
     "index.css",
-    "CHANGELOG.md"
+    "CHANGELOG.md",
+    "LICENSE"
   ],
   "keywords": [
     "docsify",
