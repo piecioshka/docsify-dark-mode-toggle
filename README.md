@@ -128,6 +128,10 @@ You can also place your own `<button class="dark-mode-toggle">` in the markup
 - The script reacts to `prefers-color-scheme` changes only while the user has
   not made an explicit choice.
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## License
 
 [The MIT License](https://piecioshka.mit-license.org) @ 2026
