@@ -12,6 +12,10 @@ respects `prefers-color-scheme`, and persists the user's choice in `localStorage
 
 Works just as well in any plain HTML page — Docsify is not required.
 
+| Light                                                                      | Dark                                                                     |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![docsify-dark-mode-toggle - demo, light](docs/screenshots/demo-light.png) | ![docsify-dark-mode-toggle - demo, dark](docs/screenshots/demo-dark.png) |
+
 ## Features ✨
 
 - 🌓 One-click toggle between light and dark palettes
