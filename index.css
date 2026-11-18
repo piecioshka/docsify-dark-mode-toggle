@@ -39,6 +39,8 @@ html.dark-mode {
   --dm-tip-bg: var(--dm-bg-elevated);
   --dm-summary-bg: var(--dm-bg-elevated);
   --dm-search-input-bg: var(--dm-bg-elevated);
+  --dm-search-clear-bg: var(--dm-border);
+  --dm-search-clear-icon: var(--dm-text);
 
   background: var(--dm-bg);
   color: var(--dm-text);
@@ -61,7 +63,9 @@ html.dark-mode {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: color 0.2s ease, opacity 0.2s ease;
+  transition:
+    color 0.2s ease,
+    opacity 0.2s ease;
 }
 
 .dark-mode-toggle:hover {
@@ -191,6 +195,17 @@ html.dark-mode .search input[type="search"] {
   background: var(--dm-search-input-bg);
   color: var(--dm-text);
   border-color: var(--dm-border);
+}
+
+/* Clear (x) button of the search input: Docsify draws it as an inline SVG
+   with a light gray circle and a white cross, which is barely visible on a
+   dark sidebar. CSS overrides the SVG presentation attributes. */
+html.dark-mode .search .clear-button circle {
+  fill: var(--dm-search-clear-bg);
+}
+
+html.dark-mode .search .clear-button path {
+  stroke: var(--dm-search-clear-icon);
 }
 
 html.dark-mode .search .results-panel {
